@@ -1,0 +1,74 @@
+.seller {
+    height: auto;
+    width:23%;
+    padding: 15px;
+    background-color: $violet;
+    font-family: "roboto";
+    font-size:13px;
+    color:$greytext;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 1) 6px 6px 10px 6px;
+    @include big {
+        width: 50%;
+        margin-right: 0;
+    }
+    @include tablets {
+        width: 100%;
+       
+    }
+}
+.seller__title {
+margin-bottom: 25px;
+
+color:#fff;
+}
+.avatar_seller {
+    margin-bottom: 15px;
+    .avatar__img {
+        width: 90px;
+        height: 90px;
+    }  
+}
+.seller__name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.nickname_seller {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.seller__block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.status-pic_seller {
+    width: 30px;
+    height: 32px;
+    margin-right: 10px;
+}
+.seller__rating {
+    margin-bottom: 10px;
+}
+.seller__rating span, .seller__reviews span, .seller__reputation span {
+    color: $violettext;
+}
+.seller__reputation {
+margin-bottom: 15px;
+}
+.seller__block_wrap {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seller__payment-pic {
+    margin: 0 10px;
+    fill: $violettext;
+    width: 75px;
+    height: 40px;
+}

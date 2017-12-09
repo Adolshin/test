@@ -1,0 +1,32 @@
+.tags {
+    margin-bottom: 20px;
+    display: flex;
+}
+.tags__title {
+    font-family: "Myriad Pro";
+    color: $greytext;
+    margin-right: 10px;
+}
+.tags__list {
+    display: flex;
+    font-family: "roboto";
+}
+
+.tags__item {
+   display: flex;
+}
+
+.tags__item:after {
+    margin: 0 3px;
+    content: ',';
+    color: $violettext;
+}
+
+.tags__item:last-child:after {
+    display: none;
+}
+
+.tags__link {
+   
+    color: $violettext;
+}

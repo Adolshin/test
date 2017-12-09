@@ -1,0 +1,86 @@
+.lot {
+    background-color: $violet;
+    width: 77%;
+    box-shadow: rgba(0, 0, 0, .9) 6px 6px 10px 6px;
+    @include big {
+        width: 100%;
+      }
+}
+
+.lot__header {
+    background-color: $violetlight;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.lot__title {
+    font-family: "roboto";
+    font-size: 18px;
+}
+
+.lot__time {
+    display: flex;
+    align-items: center;
+}
+
+.lot__time__img {
+    width: 20px;
+    height: 25px;
+    fill: #fff;
+    margin-right: 10px;
+}
+
+.lot__content {
+    padding: 10px 20px 35px 10px;
+}
+
+.lot__row {
+    display: flex;
+    margin-bottom: 20px;
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.lot__img {
+    max-width: 100%;
+    margin-right: 30px;
+    @include tablets {
+     margin-bottom: 20px;
+    }
+}
+.lot__confirm {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.lot__confirm-item {
+    display: flex;
+    align-items: center;
+}
+.lot__confirm-pic {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.lot__confirm-pic_color_violet {
+    fill: $violettext;
+}
+.lot__confirm-pic_color_pink {
+    fill: #ee6d86;
+}
+.lot__confirm-text {
+    line-height: 1;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+}
+.lot__confirm-text_color_violet {
+color:$violettext;
+}
+.lot__confirm-text_color_red {
+    color:#d42a50;
+} 

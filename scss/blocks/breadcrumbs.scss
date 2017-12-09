@@ -1,0 +1,33 @@
+.breadcrumbs {
+    margin-bottom: 20px;
+    display: flex;
+}
+.breadcrumbs__title {
+    font-family: "Myriad Pro";
+    color: $greytext;
+    margin-right: 10px;
+}
+.breadcrumbs__list {
+    display: flex;
+    font-family: "roboto";
+}
+
+.breadcrumbs__item {
+   display: flex;
+}
+
+.breadcrumbs__item:after {
+    margin: 0 3px;
+    content: ' /';
+    color: $violettext;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+   
+    color: $violettext;
+}
+

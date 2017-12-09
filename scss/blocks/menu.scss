@@ -1,0 +1,28 @@
+.menu__par {
+    display: flex;
+    margin-bottom: 20px;
+}
+.menu__text {
+  position: relative;
+}
+.menu__title {
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid $greytext;
+    font-family: "roboto";
+    background-color: $violetdark;
+    margin-right: 20px;
+    transition: .5s;
+    &:last-child {
+        margin-right: 0;
+        padding: 10px 35px;
+    }
+    &:hover {
+        background-color: $greytext;
+        color: $violetdark;
+    }
+}
+.menu__title_active {
+    background-color: $greytext;
+    color: $violetdark;
+}

@@ -1,0 +1,130 @@
+.logo_header {
+    margin-right: 58px;
+    @include large {
+        margin-right: 20px;
+    }
+}
+
+.status-pic {
+    fill: $violettext;
+}
+.nickname {
+    font-family: "roboto";
+    
+    color: $violettext;
+}
+
+
+.section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.section-title__text {
+    font-family: "roboto";
+    font-size: 18;
+    color: $greytext;
+    margin-right: 10px;
+}
+
+.section-title__line {
+    flex: 1;
+    background-color: $greytext;
+    height: 1px;
+}
+
+.scroll {
+    fill: $greytext;
+    width: 13px;
+    height: 26px;
+    position: absolute;
+}
+
+.scroll_left {
+    transform: translateY(-50%) rotate(90deg);
+    left: -13px;
+    top: 50%;
+}
+
+.scroll_right {
+    transform: translateY(-50%) rotate(-90deg);
+    right: -13px;
+    top: 50%;
+}
+.cross-pic {
+    width: 10px;
+    height: 10px;
+    fill:$greytext;
+}
+.copyright {
+    font-size: 12px; 
+}
+.copyright__row {
+    margin-bottom: 5px;
+}
+.copyright__link {
+    color: $greytext;
+    text-align: left;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    font-weight: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+svg,
+a,
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+input {
+    border: none;
+    outline: none;
+    background-color: $violetdark;
+    color: #fff;
+}
+textarea {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: $violetdark;
+    color: #fff;
+    -moz-appearance: none;
+    resize: none;
+    overflow-x: hidden;
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+}

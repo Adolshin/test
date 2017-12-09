@@ -1,0 +1,67 @@
+.messages {
+    display: flex;
+    margin-right: 48px;
+}
+
+.messages__notification {
+    margin-right: 26px;
+    position: relative;
+    &:hover {
+        .messages__notification-pic {           
+            fill:  $violettext;
+        }
+    }
+ 
+}
+
+.messages__letters {
+    position: relative;
+    &:hover {
+        .messages__letters-pic {           
+            fill: $violettext;
+        }
+    }
+ 
+}
+
+.messages__notification-pic {
+    width: 30px;
+    height: 32px;
+    fill: #fff;
+    transition: .5s;
+}
+
+.messages__letters-pic {
+    width: 42px;
+    height: 32px;
+    fill: #fff;
+    transition: .5s;
+}
+.messages__notification-counter {
+    color: #fff;
+    font-family: "PTSans";
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 2px solid #fff;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    @include circle (20px, #ee6381)
+}
+.messages__letters-counter {
+    color: #fff;
+    font-family: "PTSans";
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "12";
+    border: 2px solid #fff;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    @include circle (20px, #ee6381)
+}

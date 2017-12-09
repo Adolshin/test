@@ -1,0 +1,40 @@
+.requirments {
+    width: 100%;
+    opacity: 1;
+    transition: .5s;
+    margin-top: 50px;
+    
+}
+
+.requirments__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.requirments__item_title {
+    .requirments___column {
+        font-weight: 300;
+        color: $greytext;
+    }
+}
+
+.requirments___column {
+    width: 160px;
+    text-align: center;
+    &:first-child {
+        text-align: left;
+    }
+}
+
+.requirments___column_font_bold {
+    font-weight: 700;
+    color: #fff;
+}
+.hidden {
+    opacity: 0;
+    position: absolute;
+    top:0;
+    left:-9999;
+}

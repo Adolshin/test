@@ -1,0 +1,13 @@
+.messages {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.mess__notification-pic {
+  width: 30ps;
+  height: 32px; }
+
+.mess__letters-pic {
+  width: 42px;
+  height: 32px; }

@@ -1,0 +1,27 @@
+.searchform {
+    position: relative;
+    margin-right: 32px;
+    @include large {
+        flex: 1;
+    }
+}
+
+.searchform__label {
+    display: flex;
+    align-items: center;
+}
+
+.searchform__img {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: $greytext;
+}
+
+.searchform__input {
+    padding: 7px 0;
+    text-indent: 36px;
+}

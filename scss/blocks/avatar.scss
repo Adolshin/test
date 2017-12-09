@@ -1,0 +1,13 @@
+.avatar {
+    fill: $greytext;
+    position: relative;
+}
+.avatar__status {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    @include circle (15px, #18d618);
+}
+
+
+
